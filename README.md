@@ -21,13 +21,6 @@ $ cd website
 
 Install the required packages:
 
-```
-$ conda create -n pelican-blog python=3.5 jupyter notebook
-$ source activate pelican-blog
-$ pip install pelican Markdown ghp-import
-$ mkdir plugins
-
-```
 
 Copy the notebook content to the right location (this script also modifies some links for the HTML):
 ```
